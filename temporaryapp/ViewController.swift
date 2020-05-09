@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let rect = CGRect(x: 50, y: 100, width: 200, height: 50)
+        let label = UILabel(frame: rect)
+        label.text = "Hi There!"
+        view.addSubview(label)
     }
 
 
